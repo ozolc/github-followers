@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B014E71E23D43B7E003A9ACF /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B014E71D23D43B7E003A9ACF /* FollowerListVC.swift */; };
 		B0BA5FCD23D1DE72000FA35D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BA5FCC23D1DE72000FA35D /* AppDelegate.swift */; };
 		B0BA5FCF23D1DE72000FA35D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BA5FCE23D1DE72000FA35D /* SceneDelegate.swift */; };
 		B0BA5FD623D1DE73000FA35D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BA5FD523D1DE73000FA35D /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B014E71D23D43B7E003A9ACF /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		B0BA5FC923D1DE72000FA35D /* GHFolowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFolowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BA5FCC23D1DE72000FA35D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0BA5FCE23D1DE72000FA35D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				B0BA5FFE23D1E767000FA35D /* FavoritesListVC.swift */,
 				B0C9EA3523D36D3900C49F30 /* GFButton.swift */,
 				B0C9EA3723D3702700C49F30 /* GFTextField.swift */,
+				B014E71D23D43B7E003A9ACF /* FollowerListVC.swift */,
 			);
 			path = GHFolowers;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				B0BA5FFF23D1E767000FA35D /* FavoritesListVC.swift in Sources */,
 				B0C9EA3623D36D3900C49F30 /* GFButton.swift in Sources */,
 				B0BA5FFD23D1E739000FA35D /* SearchVC.swift in Sources */,
+				B014E71E23D43B7E003A9ACF /* FollowerListVC.swift in Sources */,
 				B0BA5FCD23D1DE72000FA35D /* AppDelegate.swift in Sources */,
 				B0BA5FCF23D1DE72000FA35D /* SceneDelegate.swift in Sources */,
 			);
