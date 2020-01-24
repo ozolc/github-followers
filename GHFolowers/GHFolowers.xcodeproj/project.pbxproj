@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B002463C23DB070B008EADC6 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002463B23DB070B008EADC6 /* UIHelper.swift */; };
 		B014E71E23D43B7E003A9ACF /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B014E71D23D43B7E003A9ACF /* FollowerListVC.swift */; };
 		B014E72023D4905E003A9ACF /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B014E71F23D4905E003A9ACF /* GFTitleLabel.swift */; };
 		B014E72223D49262003A9ACF /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B014E72123D49262003A9ACF /* GFBodyLabel.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B002463B23DB070B008EADC6 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		B014E71D23D43B7E003A9ACF /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		B014E71F23D4905E003A9ACF /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
 		B014E72123D49262003A9ACF /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				B059923823D87FF100E17C22 /* GFError.swift */,
+				B002463B23DB070B008EADC6 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				B0BA5FFF23D1E767000FA35D /* FavoritesListVC.swift in Sources */,
 				B0C9EA3623D36D3900C49F30 /* GFButton.swift in Sources */,
 				B014E72623D4B6AF003A9ACF /* UIViewController+Ext.swift in Sources */,
+				B002463C23DB070B008EADC6 /* UIHelper.swift in Sources */,
 				B065A57923D9FA1000E81857 /* GFAvatarImageView.swift in Sources */,
 				B0BA5FFD23D1E739000FA35D /* SearchVC.swift in Sources */,
 				B014E72423D49485003A9ACF /* GFAlertVC.swift in Sources */,
