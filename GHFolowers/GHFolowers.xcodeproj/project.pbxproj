@@ -32,6 +32,7 @@
 		B0FCB2E923D5A80B00130140 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FCB2E823D5A80B00130140 /* Follower.swift */; };
 		B0FCB2EB23D5A8D400130140 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FCB2EA23D5A8D400130140 /* User.swift */; };
 		B0FCB2EE23D5B3D500130140 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FCB2ED23D5B3D500130140 /* NetworkManager.swift */; };
+		B0FFDEE423DE0E2500E864EE /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FFDEE323DE0E2500E864EE /* GFItemInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		B0FCB2E823D5A80B00130140 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		B0FCB2EA23D5A8D400130140 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B0FCB2ED23D5B3D500130140 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B0FFDEE323DE0E2500E864EE /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				B0B0AD4C23DC986D00B35223 /* GFEmptyStateView.swift */,
+				B0FFDEE323DE0E2500E864EE /* GFItemInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				B065A57923D9FA1000E81857 /* GFAvatarImageView.swift in Sources */,
 				B0BA5FFD23D1E739000FA35D /* SearchVC.swift in Sources */,
 				B014E72423D49485003A9ACF /* GFAlertVC.swift in Sources */,
+				B0FFDEE423DE0E2500E864EE /* GFItemInfoView.swift in Sources */,
 				B065A57723D9F95E00E81857 /* FollowerCell.swift in Sources */,
 				B059923923D87FF100E17C22 /* GFError.swift in Sources */,
 				B0D5A13A23DDB70A0087972A /* GFUserInfoHeaderVC.swift in Sources */,
