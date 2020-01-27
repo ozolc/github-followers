@@ -15,6 +15,13 @@ class GFItemInfoVC: UIViewController {
     let itemInfoViewTwo = GFItemInfoView()
     let actionButton = GFButton()
     
+    var user: User!
+    
+    init(user: User) {
+        super.init(nibName: nil, bundle: nil)
+        self.user = user
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -54,6 +61,10 @@ class GFItemInfoVC: UIViewController {
             actionButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
             actionButton.heightAnchor.constraint(equalToConstant: 44)
         ])
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
 
 }
