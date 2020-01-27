@@ -17,6 +17,7 @@
 		B059923923D87FF100E17C22 /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B059923823D87FF100E17C22 /* GFError.swift */; };
 		B065A57723D9F95E00E81857 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B065A57623D9F95E00E81857 /* FollowerCell.swift */; };
 		B065A57923D9FA1000E81857 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B065A57823D9FA1000E81857 /* GFAvatarImageView.swift */; };
+		B0975FB723DEF6B40032A35A /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0975FB623DEF6B40032A35A /* GFItemInfoVC.swift */; };
 		B0B0AD4D23DC986D00B35223 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B0AD4C23DC986D00B35223 /* GFEmptyStateView.swift */; };
 		B0BA5FCD23D1DE72000FA35D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BA5FCC23D1DE72000FA35D /* AppDelegate.swift */; };
 		B0BA5FCF23D1DE72000FA35D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BA5FCE23D1DE72000FA35D /* SceneDelegate.swift */; };
@@ -46,6 +47,7 @@
 		B059923823D87FF100E17C22 /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 		B065A57623D9F95E00E81857 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		B065A57823D9FA1000E81857 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		B0975FB623DEF6B40032A35A /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 		B0B0AD4C23DC986D00B35223 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		B0BA5FC923D1DE72000FA35D /* GHFolowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFolowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BA5FCC23D1DE72000FA35D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 			children = (
 				B014E72323D49485003A9ACF /* GFAlertVC.swift */,
 				B0D5A13923DDB70A0087972A /* GFUserInfoHeaderVC.swift */,
+				B0975FB623DEF6B40032A35A /* GFItemInfoVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				B0C9EA3623D36D3900C49F30 /* GFButton.swift in Sources */,
 				B014E72623D4B6AF003A9ACF /* UIViewController+Ext.swift in Sources */,
 				B002463C23DB070B008EADC6 /* UIHelper.swift in Sources */,
+				B0975FB723DEF6B40032A35A /* GFItemInfoVC.swift in Sources */,
 				B0D5A13E23DDC53D0087972A /* Constants.swift in Sources */,
 				B065A57923D9FA1000E81857 /* GFAvatarImageView.swift in Sources */,
 				B0BA5FFD23D1E739000FA35D /* SearchVC.swift in Sources */,
@@ -400,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -454,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -471,6 +475,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RXJ69EWCMT;
 				INFOPLIST_FILE = GHFolowers/Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -489,6 +494,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RXJ69EWCMT;
 				INFOPLIST_FILE = GHFolowers/Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
